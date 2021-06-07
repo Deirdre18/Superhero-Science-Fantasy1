@@ -17,9 +17,11 @@
   <ion-title><strong>Favorite Films</strong></ion-title>
  
   <ion-item *ngFor="let f of films" style="color:#250713">
-    <ion-label>
-      <a href="tabs/films/4"> | {{f.title}} |</a>
-      <a href="tabs/films/1"> | {{f.title}} |</a>
+    <ion-label>     
+    <ion-item button detail lines="inset" style="color:#250713" *ngFor="let film of (films | async)?.results"
+      (click)="openDetails(film)">
+      {{ f.title }}
+    </ion-item>
     </ion-label>
   </ion-item>
   <br><br><br>
