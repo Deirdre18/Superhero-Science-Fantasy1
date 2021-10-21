@@ -7,7 +7,7 @@
     "preinstall": "npx npm-force-resolutions"
   },
   "resolutions": {
-    "postcss": "8.3.10"
+    "postcss": "8.3.11"
   },
   "private": true,
   "dependencies": {
@@ -65,7 +65,7 @@
     "karma-coverage-istanbul-reporter": "3.0.3",
     "karma-jasmine": "4.0.1",
     "karma-jasmine-html-reporter": "1.7.0",
-    "postcss": "8.3.10",
+    "postcss": "8.3.11",
     "protractor": "7.0.0",
     "serialize-javascript": "5.0.1",
     "ts-node": "9.1.1",
